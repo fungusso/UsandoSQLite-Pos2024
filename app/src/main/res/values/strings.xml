@@ -1,0 +1,47 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">Lancamento Contabil</string>
+    <string name="label">Lancamento Contabil</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="incluir">Incluir</string>
+    <string name="listar">Listar</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="tiplan">Tip Lan:</string>
+    <string name="deslan">Des Lan:</string>
+    <string name="data">Data:</string>
+    <string name="valor">Valor:</string>
+    <string name="cod">Cod:</string>
+    <string name="saldo">Saldo Cred(-)Deb:</string>
+    <string name="totaldebito">Total de Débitos:</string>
+    <string name="totalcredito">Total de Créditos:</string>
+    <string name="informe_a_data">Informe a data</string>
+    <string name="informe_o_valor">Informe o valor</string>
+    <string name="informe_o_tiplan">Tipo de Lancamento</string>
+    <string name="informe_o_deslan">Descricao de Lancamento</string>
+    <string name="informe_o_c_digo">Informe o Código</string>
+    <string name="total_debitos">Total Debitos:</string>
+    <string name="add_new_members">Add New Members</string>
+    <string name="leave_this_group">Leave this group</string>
+    <string-array name="array_credito">
+        <item>Selecione o Credito</item>
+        <item>Venda</item><item>Dividendos</item><item>Recuperacao</item>
+    </string-array>
+    <string-array name="array_debito">
+        <item>Selecione o Debito</item>
+        <item>Agua</item><item>Luz</item>
+        <item>Aluguel</item><item>Combustivel</item>
+    </string-array>
+    <style name="boldText">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#C0C0C0</item>
+    </style>
+    <color name="highlightedTextViewColor">@android:color/holo_green_light</color>
+    <color name="normalTextViewColor">@android:color/holo_red_dark</color>
+    <color name="orangelight">#F3AE1B</color>
+</resources>

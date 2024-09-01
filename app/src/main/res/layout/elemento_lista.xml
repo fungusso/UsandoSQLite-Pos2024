@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTipElementoListar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvDataElementoListar"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+    <TextView
+        android:id="@+id/tvDesdata"
+        android:layout_width="48dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTipElementoListar"
+        app:layout_constraintStart_toEndOf="@+id/ivFoto"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="DATA:"/>
+
+
+    <TextView
+        android:id="@+id/tvDataElementoListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+
+        android:textColor="#008080"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tvDesdata"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="DDDDDDD" />
+
+    <TextView
+        android:id="@+id/tvDestip"
+        android:layout_width="48dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvTipElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesdata"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="TIPO:" />
+
+    <TextView
+        android:id="@+id/tvTipElementoListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:textColor="#008080"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvDataElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDataElementoListar"
+        tools:text="yyyyyyy" />
+
+    <TextView
+        android:id="@+id/tvDeslan"
+        android:layout_width="48dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDesElementoListar"
+        app:layout_constraintEnd_toStartOf="@+id/tvTipElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDestip"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Detalhe:" />
+
+    <TextView
+        android:id="@+id/tvDesElementoListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#008080"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvTipElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDestip"
+        tools:text="xxxxx" />
+
+    <TextView
+        android:id="@+id/tvDesval"
+        android:layout_width="48dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvValElementoListar"
+        app:layout_constraintEnd_toStartOf="@+id/tvValElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDeslan"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Valor:" />
+
+    <TextView
+        android:id="@+id/tvValElementoListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/tvDesElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDeslan"
+
+        android:textColor="#008080"
+        android:textStyle="bold"
+        tools:text="wwwww" />
+    <TextView
+        android:id="@+id/tvChave"
+        android:layout_width="48dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvKeyElementoListar"
+        app:layout_constraintEnd_toStartOf="@+id/tvKeyElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesval"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Chave:" />
+
+        <TextView
+        android:id="@+id/tvKeyElementoListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/tvValElementoListar"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesval"
+
+        android:textColor="#008080"
+        android:textStyle="bold"
+        tools:text="kkkkk" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
